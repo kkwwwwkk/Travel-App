@@ -12,15 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Yomogi&display=swap" rel="stylesheet">
     <style>
         body {
-            <div class="app-container">
-    
-    <div style="height: 250px; width: 100%; overflow: hidden;">
-        <img src="image1.jpg" alt="夏日祭典鳥居" style="width: 100%; height: 100%; object-fit: cover;">
-    </div>
-
-    <div class="p-4">
-        </div>
-</div>
             font-family: 'Noto Sans TC', sans-serif;
             background-color: #e0f2fe; /* 基礎延伸底色 */
             background-image: linear-gradient(180deg, #e0f2fe 0%, #f0fdfa 100%);
@@ -71,7 +62,14 @@
 </head>
 <body class="watercolor-bg">
     <div id="app" class="app-container flex flex-col pb-24">
-        
+        <div class="app-container">
+    <div style="height: 250px; width: 100%; overflow: hidden;">
+        <img src="image1.jpg" alt="夏日祭典橫幅" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    </div>
+
+    <div class="animate-fade-in p-4">
+        </div>
+</div>
         <div class="relative w-full h-[250px] overflow-hidden bg-sky-100">
             <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1920&q=80" alt="Summer Festival Banner" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/10"></div>
